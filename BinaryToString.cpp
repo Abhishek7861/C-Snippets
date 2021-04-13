@@ -26,8 +26,9 @@ public:
     
 };
 
-main(){
+int main(){
     Solution ob;
     cout<<ob.stringToBinary(55)<<endl;
     cout<<ob.binaryToString("10011001")<<endl;
+    return 0;
 }
